@@ -21,6 +21,7 @@
 		003D0D46187C147600F6E0F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003D0D28187C147600F6E0F4 /* UIKit.framework */; };
 		003D0D4E187C147600F6E0F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 003D0D4C187C147600F6E0F4 /* InfoPlist.strings */; };
 		003D0D50187C147600F6E0F4 /* _73Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D0D4F187C147600F6E0F4 /* _73Tests.m */; };
+		003D0D5B187C14F300F6E0F4 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D0D5A187C14F300F6E0F4 /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		003D0D4B187C147600F6E0F4 /* 273Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "273Tests-Info.plist"; sourceTree = "<group>"; };
 		003D0D4D187C147600F6E0F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		003D0D4F187C147600F6E0F4 /* _73Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _73Tests.m; sourceTree = "<group>"; };
+		003D0D59187C14F300F6E0F4 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		003D0D5A187C14F300F6E0F4 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				003D0D3A187C147600F6E0F4 /* ViewController.m */,
 				003D0D3C187C147600F6E0F4 /* Images.xcassets */,
 				003D0D2B187C147600F6E0F4 /* Supporting Files */,
+				003D0D59187C14F300F6E0F4 /* DrawingView.h */,
+				003D0D5A187C14F300F6E0F4 /* DrawingView.m */,
 			);
 			path = 273;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				003D0D3B187C147600F6E0F4 /* ViewController.m in Sources */,
 				003D0D35187C147600F6E0F4 /* AppDelegate.m in Sources */,
 				003D0D31187C147600F6E0F4 /* main.m in Sources */,
+				003D0D5B187C14F300F6E0F4 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
